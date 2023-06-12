@@ -96,3 +96,60 @@ private:
  list<IObserver*> list_observer_;
  string message_;
 };
+
+class EditChecker : public IObserver {
+private:
+int FileSize = 0;
+bool FileExisting = 0;
+public:
+QString FEd;
+void Update(int size, bool existing )override {
+    int oldsize = FileSize;
+    FileSize = size;
+    FileExisting = existing;
+    EditCheck(oldsize);
+}
+void EditCheck(int oldsize)
+{
+    if ((FileExisting)&&(FileSize>oldsize))
+    {
+
+        cout << "файл изменен\t"<< "Размер: " << FileSize<< endl;
+            FEd = "файл изменен." ;
+    }
+}
+};
+
+
+class ExsistingChecker : public IObserver {
+private:
+bool FileExisting = 0;
+int FileSize = 0;
+
+
+public:
+ QString FEx;
+
+
+void Update(int size, bool existing)override {
+    FileExisting = existing;
+    FileSize = size;
+    ExistingCheck();
+
+}
+void ExistingCheck()
+{
+    if (FileExisting)
+    {
+        cout << "файл существует!\n";
+
+            FEx = "файл существует. Его размер: " + QString::number(FileSize)  ;
+
+    }
+    if (!FileExisting) {  cout << "файл не существует\n";   FEx = "файл не существует"; }
+
+
+}
+
+
+};
