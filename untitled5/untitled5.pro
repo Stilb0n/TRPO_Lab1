@@ -17,6 +17,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
     IFileEditor.cpp \
+    fileeditor.cpp \
     main.cpp \
     mainwindow.cpp
 
