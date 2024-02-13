@@ -469,11 +469,38 @@ debug/mainwindow.o: ../untitled5/mainwindow.cpp ../untitled5/mainwindow.h \
 		D:/5.14.2/mingw73_32/include/QtWidgets/qtabwidget.h \
 		D:/5.14.2/mingw73_32/include/QtGui/qicon.h \
 		ui_mainwindow.h \
+		D:/5.14.2/mingw73_32/include/QtCore/QVariant \
+		D:/5.14.2/mingw73_32/include/QtWidgets/QApplication \
+		D:/5.14.2/mingw73_32/include/QtWidgets/qapplication.h \
+		D:/5.14.2/mingw73_32/include/QtCore/qcoreapplication.h \
+		D:/5.14.2/mingw73_32/include/QtCore/qeventloop.h \
+		D:/5.14.2/mingw73_32/include/QtWidgets/qdesktopwidget.h \
+		D:/5.14.2/mingw73_32/include/QtGui/qguiapplication.h \
+		D:/5.14.2/mingw73_32/include/QtGui/qinputmethod.h \
+		D:/5.14.2/mingw73_32/include/QtWidgets/QGroupBox \
+		D:/5.14.2/mingw73_32/include/QtWidgets/qgroupbox.h \
+		D:/5.14.2/mingw73_32/include/QtWidgets/qframe.h \
+		D:/5.14.2/mingw73_32/include/QtWidgets/QLineEdit \
+		D:/5.14.2/mingw73_32/include/QtWidgets/qlineedit.h \
+		D:/5.14.2/mingw73_32/include/QtGui/qtextcursor.h \
+		D:/5.14.2/mingw73_32/include/QtGui/qtextformat.h \
+		D:/5.14.2/mingw73_32/include/QtGui/qpen.h \
+		D:/5.14.2/mingw73_32/include/QtGui/qtextoption.h \
+		D:/5.14.2/mingw73_32/include/QtWidgets/QMenuBar \
+		D:/5.14.2/mingw73_32/include/QtWidgets/qmenubar.h \
+		D:/5.14.2/mingw73_32/include/QtWidgets/qmenu.h \
+		D:/5.14.2/mingw73_32/include/QtWidgets/qaction.h \
+		D:/5.14.2/mingw73_32/include/QtWidgets/qactiongroup.h \
+		D:/5.14.2/mingw73_32/include/QtWidgets/QPushButton \
+		D:/5.14.2/mingw73_32/include/QtWidgets/qpushbutton.h \
+		D:/5.14.2/mingw73_32/include/QtWidgets/qabstractbutton.h \
+		D:/5.14.2/mingw73_32/include/QtWidgets/QStatusBar \
+		D:/5.14.2/mingw73_32/include/QtWidgets/qstatusbar.h \
+		D:/5.14.2/mingw73_32/include/QtWidgets/QWidget \
 		../untitled5/fileeditor.cpp \
-		../untitled5/IFileEditor.cpp \
+		../untitled5/IObserver.cpp \
 		D:/5.14.2/mingw73_32/include/QtWidgets/QLabel \
 		D:/5.14.2/mingw73_32/include/QtWidgets/qlabel.h \
-		D:/5.14.2/mingw73_32/include/QtWidgets/qframe.h \
 		D:/5.14.2/mingw73_32/include/QtCore/QString \
 		D:/5.14.2/mingw73_32/include/QtWidgets/QMessageBox \
 		D:/5.14.2/mingw73_32/include/QtWidgets/qmessagebox.h \

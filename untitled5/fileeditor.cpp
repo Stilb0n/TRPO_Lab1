@@ -1,12 +1,12 @@
 #pragma once
 #include <iostream>
 #include <fstream>
-#include "IFileEditor.cpp"
+#include "IObserver.cpp"
 #include <list>
 #include <QLabel>
 #include <QString>
 using namespace std;
-class FileEditor : public IFileEditor
+class FileEditor
 {
 public:
 bool existing = 1;
@@ -75,14 +75,14 @@ void Write(string data) {
     Notify();
 
 }
-void Attach(IObserver* observer) override {
+void Attach(IObserver* observer)  {
     list_observer_.push_back(observer);
 
 }
-void Detach(IObserver* observer) override {
+void Detach(IObserver* observer)  {
     list_observer_.remove(observer);
 }
-void Notify() override { //!!!!!!!!!!!!!!!!
+void Notify()  { //!!!!!!!!!!!!!!!!
     list<IObserver*>::iterator iterator = list_observer_.begin();
 
     while (iterator != list_observer_.end()) {
